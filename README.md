@@ -1,4 +1,4 @@
-hkilter.github.io
+Website content
 =================
 
-Stuff for the the website http://lab.hkilter.com (http://hkilter.github.io redirected to there)
+Website content for the the website http://lab.hkilter.com (http://hkilter.github.io redirected to there).
