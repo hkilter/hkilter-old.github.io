@@ -28,7 +28,7 @@
 <!-- ARTICLE -->
 <article>
 <div class="article-title">Introduction</div>
-<p>@hkilter
+
 <h2>Welcome to GitHub Pages</h2>
 
 <p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
@@ -55,6 +55,60 @@ $ git checkout gh-pages
 <h2>Support or Contact</h2>
 
 <p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+
+<svg width="20cm" height="20cm" viewBox="0 0 2000 2000"
+     xmlns="http://www.w3.org/2000/svg" version="1.1">
+<desc>Member Box - Basic</desc>
+<text x="200" y="150"
+			font-family="Helvetica" font-size="36" fill="black" >
+    	Member Box - Basic
+</text>
+<text x="220" y="320"
+			font-family="Helvetica" font-size="24" fill="black" >
+    	INCOMING SHIPMENT
+</text>
+<text x="720" y="320"
+			font-family="Helvetica" font-size="24" fill="black" >
+    	OUTGOING SHIPMENT
+</text>
+<text x="220" y="830"
+			font-family="Helvetica" font-size="24" fill="black" >
+    	<tspan font-weight="bold" x="220" y="830">SENT</tspan>    	
+    	<tspan x="220" y="890">RETURNED PRODUCT</tspan>
+    	<tspan x="220" y="920">ORDER</tspan>
+    	<tspan x="220" y="950">MONEY</tspan>
+</text>
+<text x="720" y="830"
+			font-family="Helvetica" font-size="24" fill="black" >
+    	<tspan font-weight="bold" x="720" y="830">RECEIVED</tspan>    	
+    	<tspan x="720" y="890">RETURNED PRODUCT</tspan>
+    	<tspan x="720" y="920">ORDER</tspan>
+    	<tspan x="720" y="950">MONEY</tspan>
+</text>
+<polyline id = "MemBox" fill="none" stroke="black" stroke-width="3"
+  				points="200,200
+  								1000,200 1000,260 
+  								1020,260 1030,320 1020,380 1000,380 
+  								1000,840
+  								1020,840 1010,900 1020,960 1000,960
+  								1000,1020 200,1020
+  								200,960
+  								180,960 170,900 180,840 200,840
+  								200,380
+  								180,380 190,320 180,260 200,260
+  								200,200
+  								"/>
+<!-- <polyline id = "ArrowOut" fill="none" stroke="black" stroke-width="3"
+  				points="1030,320
+  								1130,320
+  				"/>
+<polyline id = "MiniArrow" fill="white" stroke="black" stroke-width="3"
+  				points="1080,320
+  								1080,310 1090,320 
+  								1080,330 1080,320"/> -->
+  								
+<use xlink:href = "#MemBox" x = "870" y = "0" />
+</svg>
 
 </article>
 
