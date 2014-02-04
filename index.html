@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<meta charset='utf-8' />
+<title>The Laboratory</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/screen.css">
+<body>
+<div id="page">
+	<!-- FRAME -->
+	<div id="frame1">
+		<div id="frame2">
+	<!-- HEADER -->
+	<header>
+		<div class="inner">
+			<div id="logo"><a href="http://lab.hkilter.com/">Laboratory</a></div>
+			<div id="social"></div>
+		</div>
+	</header>
+			
+<!-- ASIDE -->
+<aside>
+	<p><a href="http://www.hkilter.com/" style="text-decoration: none;">Back to hkilter.com</a></p>
+	<div style="border-bottom: 1px solid #eee; height: 20px;"></div>
+	<p style="text-decoration: none; color: #ccc;">Laboratory Sections</p>
+	<div style="border-bottom: 1px solid #eee; height: 20px;"></div>
+	<p><a href="https://github.com/hkilter/hkilter.github.io/" style="text-decoration: none;">Me on Github</a></p>
+</aside>
+
+<!-- ARTICLE -->
+<article>
+<div class="article-title">Introduction</div>
+
+<p><b>The Laboratory - <a href="http://lab.hkilter.com">http://lab.hkilter.com</a></b> is an innovative platform for my SCOM experiments. These experiments are related to Supply Chain Mapping by using SVG and they are planned to create a user interface for SCOM dashboard. The Laboratory is hosted by GitHub Pages and you can visit my repositories at <a href="https://github.com/hkilter/">https://github.com/hkilter/</a>.
+
+<h2>Template - Member Boxes</h2>
+
+<p>There two templates that show different perspectives about members. First template,  <b>Member Box - Basic</b>, shows two points of interest for a certain member. There are (1) Received elements (incoming shipment, returned product, order and money) and (2) Sent elements (outgoing shipment, returned product, order and money) parts for a member to interact its respective neighbours (supplier, transporter, distributor etc.) <b>Member Box - Advanced</b> is the second template and it shows inner dynamics (operations) of the member itself.  
+
+<svg width="20cm" height="11cm" viewBox="0 0 2000 1100"
+     xmlns="http://www.w3.org/2000/svg" version="1.1">
+<desc>Member Box - Basic</desc>
+<text x="200" y="150"
+			font-family="Helvetica Neue" font-size="36" fill="black" >
+    	Member Box - Basic
+</text>
+<text x="220" y="320"
+			font-family="Helvetica" font-size="24" fill="black" >
+    	INCOMING SHIPMENT
+</text>
+<text x="720" y="320"
+			font-family="Helvetica" font-size="24" fill="black" >
+    	OUTGOING SHIPMENT
+</text>
+<text x="220" y="830"
+			font-family="Helvetica" font-size="24" fill="black" >
+    	<tspan font-weight="bold" x="220" y="830">SENT</tspan>    	
+    	<tspan x="220" y="890">RETURNED PRODUCT</tspan>
+    	<tspan x="220" y="920">ORDER</tspan>
+    	<tspan x="220" y="950">MONEY</tspan>
+</text>
+<text x="720" y="830"
+			font-family="Helvetica" font-size="24" fill="black" >
+    	<tspan font-weight="bold" x="720" y="830">RECEIVED</tspan>    	
+    	<tspan x="720" y="890">RETURNED PRODUCT</tspan>
+    	<tspan x="720" y="920">ORDER</tspan>
+    	<tspan x="720" y="950">MONEY</tspan>
+</text>
+<polyline id = "MemBox" fill="none" stroke="black" stroke-width="3"
+  				points="200,200
+  								1000,200 1000,260 
+  								1020,260 1030,320 1020,380 1000,380 
+  								1000,840
+  								1020,840 1010,900 1020,960 1000,960
+  								1000,1020 200,1020
+  								200,960
+  								180,960 170,900 180,840 200,840
+  								200,380
+  								180,380 190,320 180,260 200,260
+  								200,200
+  								"/>
+<!-- <polyline id = "ArrowOut" fill="none" stroke="black" stroke-width="3"
+  				points="1030,320
+  								1130,320
+  				"/>
+<polyline id = "MiniArrow" fill="white" stroke="black" stroke-width="3"
+  				points="1080,320
+  								1080,310 1090,320 
+  								1080,330 1080,320"/> -->
+  								
+<use xlink:href = "#MemBox" x = "870" y = "0" />
+</svg>
+
+<svg width="20cm" height="11cm" viewBox="0 0 2000 1100"
+     xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+<desc>Member Box - Advanced</desc>
+
+<text x="200" y="150"
+			font-family="Helvetica Neue" font-size="36" fill="black" >
+    	Member Box - Advanced
+</text>
+
+<!-- <text x="570" y="530"
+			font-family="Helvetica" font-size="24" fill="black" >
+    	PRODUCTION
+</text> -->
+
+<text	font-family="Helvetica" font-size="24" fill="black" >
+			<tspan x="230" y="290">Materials</tspan>    	
+			<tspan x="230" y="320"> </tspan>
+</text>
+
+<text	font-family="Helvetica" font-size="24" fill="black" >
+			<tspan x="880" y="270">Finished</tspan>    	
+			<tspan x="880" y="300">Products</tspan>
+</text>
+
+<text	font-family="Helvetica" font-size="24" fill="black" >
+			<tspan x="870" y="870">Orders</tspan>    	
+			<tspan x="870" y="720">Money</tspan>
+			<tspan x="870" y="570">Returned</tspan>
+			<tspan x="870" y="600">Products</tspan>
+</text>
+
+
+<polyline id = "MemBox" fill="none" stroke="black" stroke-width="4"
+  				points="200,200
+  								1000,200 
+  								1000,260 1020,260 1030,320 1020,380 1000,380 
+  								1000,540 1020,540 1010,600 1020,660 1000,660
+  								1000,690 1020,690 1010,750 1020,810 1000,810
+  								1000,840 1020,840 1010,900 1020,960 1000,960
+  								1000,1020 200,1020
+  								200,960 180,960 170,900 180,840 200,840
+  								200,810 180,810 170,750 180,690 200,690
+  								200,660 180,660 170,600 180,540 200,540
+  								200,380 180,380 190,320 180,260 200,260
+  								200,200
+  								"/>
+
+<rect id = "InnerBox" x="220" y="260"
+			width="120" height="120" fill="none" stroke="black" stroke-width="2"/>
+
+<!-- <use xlink:href = "#InnerBox" x = "640" y = "0" /> -->
+<use xlink:href = "#InnerBox" x = "640" y = "280" />
+<use xlink:href = "#InnerBox" x = "640" y = "430" />
+<use xlink:href = "#InnerBox" x = "640" y = "580" />
+<use xlink:href = "#InnerBox" x = "0" y = "280" />
+<use xlink:href = "#InnerBox" x = "0" y = "430" />
+<use xlink:href = "#InnerBox" x = "0" y = "580" />
+
+
+<rect id = "Inventory" x="540" y="540"
+			width="120" height="120" fill="none" stroke="black" stroke-width="2"/>
+
+<rect id = "Production" x="500" y="260"
+			width="200" height="200" fill="none" stroke="black" stroke-width="2"/>
+
+<rect id = "Decision" x="500" y="760"
+			width="200" height="200" fill="none" stroke="black" stroke-width="2"/>
+
+<polyline fill="none" stroke="gray" stroke-width="1"
+  				points="200,600
+  								1010,600
+  				"/>
+
+<polyline fill="none" stroke="gray" stroke-width="1"
+  				points="600,200
+  								600,1020
+  				"/>
+
+<polyline id = "Arrow" fill="none" stroke="black" stroke-width="2"
+  				points="700,360 930,360 930,320 1030,320"/>
+  				
+<polyline id = "MiniArrow" fill="red" stroke="red" stroke-width="2"
+  				points="820,360 820,350 830,360 820,370 820,360"/>
+  				
+<use xlink:href = "#MemBox" x = "940" y = "0" />
+
+</svg>
+
+
+</article>
+
+<div style="clear: both;"></div>
+		</div>
+	</div><!-- /FRAME -->
+</div><!-- /PAGE -->
