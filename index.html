@@ -42,7 +42,7 @@
 			font-family="Helvetica Neue" font-size="36" fill="black" >
     	Member Box - Basic
 </text>
-<text x="220" y="320"
+<text x="230" y="320"
 			font-family="Helvetica" font-size="24" fill="black" >
     	INCOMING SHIPMENT
 </text>
@@ -52,10 +52,10 @@
 </text>
 <text x="220" y="830"
 			font-family="Helvetica" font-size="24" fill="black" >
-    	<tspan font-weight="bold" x="220" y="830">SENT</tspan>    	
-    	<tspan x="220" y="890">RETURNED PRODUCT</tspan>
-    	<tspan x="220" y="920">ORDER</tspan>
-    	<tspan x="220" y="950">MONEY</tspan>
+    	<tspan font-weight="bold" x="230" y="830">SENT</tspan>    	
+    	<tspan x="230" y="890">RETURNED PRODUCT</tspan>
+    	<tspan x="230" y="920">ORDER</tspan>
+    	<tspan x="230" y="950">MONEY</tspan>
 </text>
 <text x="720" y="830"
 			font-family="Helvetica" font-size="24" fill="black" >
@@ -77,6 +77,24 @@
   								180,380 190,320 180,260 200,260
   								200,200
   								"/>
+<g id="Sections">
+<polyline id = "Section1" fill="none" stroke="black" stroke-width="3"
+					points="200,240
+									220,240 220,400 200,400
+									"/>
+<polyline id = "Section2" fill="none" stroke="black" stroke-width="3"
+					points="200,820
+									220,820 220,980 200,980
+									"/>
+<polyline id = "Section3" fill="none" stroke="black" stroke-width="3"
+					points="1000,240
+									980,240 980,400 1000,400
+									"/>
+<polyline id = "Section4" fill="none" stroke="black" stroke-width="3"
+					points="1000,820
+									980,820 980,980 1000,980
+									"/>
+</g>									
 <!-- <polyline id = "ArrowOut" fill="none" stroke="black" stroke-width="3"
   				points="1030,320
   								1130,320
@@ -87,6 +105,8 @@
   								1080,330 1080,320"/> -->
   								
 <use xlink:href = "#MemBox" x = "870" y = "0" />
+<use xlink:href = "#Sections" x = "870" y = "0" />
+
 </svg>
 
 <svg width="20cm" height="11cm" viewBox="0 0 2000 1100"
@@ -105,49 +125,68 @@
 </text> -->
 
 <text	font-family="Helvetica" font-size="24" fill="black" >
-			<tspan x="230" y="290">Materials</tspan>    	
+			<tspan x="250" y="290">Materials</tspan>    	
 			<tspan x="230" y="320"> </tspan>
 </text>
 
 <text	font-family="Helvetica" font-size="24" fill="black" >
-			<tspan x="880" y="270">Finished</tspan>    	
-			<tspan x="880" y="300">Products</tspan>
+			<tspan x="850" y="270">Finished</tspan>    	
+			<tspan x="850" y="300">Products</tspan>
 </text>
 
 <text	font-family="Helvetica" font-size="24" fill="black" >
-			<tspan x="870" y="870">Orders</tspan>    	
-			<tspan x="870" y="720">Money</tspan>
-			<tspan x="870" y="570">Returned</tspan>
-			<tspan x="870" y="600">Products</tspan>
+			<tspan x="850" y="870">Orders</tspan>    	
+			<tspan x="850" y="720">Money</tspan>
+			<tspan x="850" y="570">Returned</tspan>
+			<tspan x="850" y="600">Products</tspan>
 </text>
 
 
-<polyline id = "MemBox" fill="none" stroke="black" stroke-width="4"
+<polyline id = "MemBox" fill="none" stroke="black" stroke-width="3"
   				points="200,200
-  								1000,200 
-  								1000,260 1020,260 1030,320 1020,380 1000,380 
-  								1000,540 1020,540 1010,600 1020,660 1000,660
-  								1000,690 1020,690 1010,750 1020,810 1000,810
-  								1000,840 1020,840 1010,900 1020,960 1000,960
+  								1000,200 1000,260 
+  								1020,260 1030,320 1020,380 1000,380 
+  								1000,840
+  								1020,840 1010,900 1020,960 1000,960
   								1000,1020 200,1020
-  								200,960 180,960 170,900 180,840 200,840
-  								200,810 180,810 170,750 180,690 200,690
-  								200,660 180,660 170,600 180,540 200,540
-  								200,380 180,380 190,320 180,260 200,260
+  								200,960
+  								180,960 170,900 180,840 200,840
+  								200,380
+  								180,380 190,320 180,260 200,260
   								200,200
   								"/>
 
-<rect id = "InnerBox" x="220" y="260"
+<g id="Sections">
+<polyline id = "Section1" fill="none" stroke="black" stroke-width="3"
+					points="200,240
+									220,240 220,400 200,400
+									"/>
+<polyline id = "Section2" fill="none" stroke="black" stroke-width="3"
+					points="200,820
+									220,820 220,980 200,980
+									"/>
+<polyline id = "Section3" fill="none" stroke="black" stroke-width="3"
+					points="1000,240
+									980,240 980,400 1000,400
+									"/>
+<polyline id = "Section4" fill="none" stroke="black" stroke-width="3"
+					points="1000,820
+									980,820 980,980 1000,980
+									"/>
+</g>
+
+<rect id = "InnerBox" x="240" y="260"
 			width="120" height="120" fill="none" stroke="black" stroke-width="2"/>
 
 <!-- <use xlink:href = "#InnerBox" x = "640" y = "0" /> -->
-<use xlink:href = "#InnerBox" x = "640" y = "280" />
-<use xlink:href = "#InnerBox" x = "640" y = "430" />
-<use xlink:href = "#InnerBox" x = "640" y = "580" />
+<use xlink:href = "#InnerBox" x = "600" y = "280" />
+<use xlink:href = "#InnerBox" x = "600" y = "430" />
+<use xlink:href = "#InnerBox" x = "600" y = "580" />
 <use xlink:href = "#InnerBox" x = "0" y = "280" />
 <use xlink:href = "#InnerBox" x = "0" y = "430" />
 <use xlink:href = "#InnerBox" x = "0" y = "580" />
 
+<use xlink:href = "#Sections" x = "940" y = "0" />
 
 <rect id = "Inventory" x="540" y="540"
 			width="120" height="120" fill="none" stroke="black" stroke-width="2"/>
@@ -169,15 +208,124 @@
   				"/>
 
 <polyline id = "Arrow" fill="none" stroke="black" stroke-width="2"
-  				points="700,360 930,360 930,320 1030,320"/>
+  				points="700,360 930,360 930,320 980,320"/>
   				
-<polyline id = "MiniArrow" fill="red" stroke="red" stroke-width="2"
+<polyline id = "MiniArrow" fill="black" stroke="black" stroke-width="2"
   				points="820,360 820,350 830,360 820,370 820,360"/>
   				
 <use xlink:href = "#MemBox" x = "940" y = "0" />
 
 </svg>
 
+<h2>Template - Flow Types</h2>
+
+<p>There are three types of flow; (1) Information, (2) Materials and (3) Money.
+
+<svg width="20cm" height="11cm" viewBox="0 0 2000 1100"
+     xmlns="http://www.w3.org/2000/svg" version="1.1">
+<desc>Flow Types</desc>
+
+<text x="200" y="150"
+			font-family="Helvetica Neue" font-size="36" fill="black" >
+    	Flow Types - Inside
+</text>
+
+<g id="flowMaterial">
+<polyline id = "ArrowOut" fill="none" stroke="black" stroke-width="3"
+  				points="200,300
+  								300,300
+  				"/>
+<polyline id = "MiniArrow" fill="black" stroke="black" stroke-width="3"
+  				points="250,300
+  								250,290 260,300 
+  								250,310 250,300"/>
+<text x="350" y="310"
+			font-family="Helvetica Neue" font-size="32" fill="black" >
+    	Material
+</text>
+</g>
+
+<g id="flowInformation">
+<polyline id = "ArrowOut" fill="none" stroke="green" stroke-width="3" stroke-dasharray="5,5"
+  				points="200,400
+  								300,400
+  				"/>
+<polyline id = "MiniArrow" fill="green" stroke="green" stroke-width="3" 
+  				points="250,400
+  								250,390 260,400 
+  								250,410 250,400"/>
+<text x="350" y="410"
+			font-family="Helvetica Neue" font-size="32" fill="black" >
+    	Information
+</text>
+</g>
+
+<g id="flowMoney">
+<polyline id = "ArrowOut" fill="none" stroke="red" stroke-width="3" 
+  				points="200,500
+  								300,500
+  				"/>
+<polyline id = "MiniArrow" fill="red" stroke="red" stroke-width="3" 
+  				points="250,500
+  								250,490 260,500 
+  								250,510 250,500"/>
+<text x="350" y="510"
+			font-family="Helvetica Neue" font-size="32" fill="black" >
+    	Money
+</text>
+</g>
+
+<text x="1000" y="150"
+			font-family="Helvetica Neue" font-size="36" fill="black" >
+    	Flow Types - Outside
+</text>
+
+<g id="flowMaterial">
+<polyline id = "ArrowOut" fill="none" stroke="black" stroke-width="8"
+  				points="1000,300
+  								1100,300
+  				"/>
+<polyline id = "MiniArrow" fill="black" stroke="black" stroke-width="8"
+  				points="1050,300
+  								1050,290 1060,300 
+  								1050,310 1050,300"/>
+<text x="1150" y="310"
+			font-family="Helvetica Neue" font-size="32" fill="black" >
+    	Material
+</text>
+</g>
+
+<g id="flowInformation">
+<polyline id = "ArrowOut" fill="none" stroke="green" stroke-width="8" stroke-dasharray="10,10"
+  				points="1000,400
+  								1100,400
+  				"/>
+<polyline id = "MiniArrow" fill="green" stroke="green" stroke-width="8" 
+  				points="1050,400
+  								1050,390 1060,400 
+  								1050,410 1050,400"/>
+<text x="1150" y="410"
+			font-family="Helvetica Neue" font-size="32" fill="black" >
+    	Information
+</text>
+</g>
+
+<g id="flowMoney">
+<polyline id = "ArrowOut" fill="none" stroke="red" stroke-width="8" 
+  				points="1000,500
+  								1100,500
+  				"/>
+<polyline id = "MiniArrow" fill="red" stroke="red" stroke-width="8" 
+  				points="1050,500
+  								1050,490 1060,500 
+  								1050,510 1050,500"/>
+<text x="1150" y="510"
+			font-family="Helvetica Neue" font-size="32" fill="black" >
+    	Money
+</text>
+</g>
+
+</svg>
 
 </article>
 
