@@ -5,4 +5,4 @@ date:   2014-03-15 23:35:37
 categories: general
 ---
 
-![My helpful screenshot]({{ site.url }}/_assets/screenshot.jpg)
+![My helpful screenshot](/_assets/screenshot.jpg)
