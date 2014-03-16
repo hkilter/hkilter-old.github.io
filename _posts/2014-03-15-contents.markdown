@@ -1,8 +1,0 @@
----
-layout: post
-title:  "Contents"
-date:   2014-03-15 23:35:37
-categories: general
----
-
-![My helpful screenshot](/images/screenshot.jpg)
