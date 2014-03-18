@@ -1,5 +1,6 @@
 ---
 layout: default
+<<<<<<< HEAD
 title: blog.hkilter.com
 ---
 
@@ -7,3 +8,23 @@ title: blog.hkilter.com
 <p><span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></p>
 {% endfor %}
 
+=======
+title: H. K. Ilter
+---
+
+<div id="home">
+  <h1>Research Highlights</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+>>>>>>> FETCH_HEAD
