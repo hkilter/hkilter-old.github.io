@@ -11,34 +11,55 @@
 
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
+		
+		<!-- Google Font-->
+		<link href='http://fonts.googleapis.com/css?family=Mate' rel='stylesheet' type='text/css'>
 
     </head>
     <body>
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
+	<!-- PAGE -->
+	<div id="page">
+	
+	<!-- FRAME1 -->
+	<div id="frame1">
+		
+		<!-- FRAME2 -->
+		<div id="frame2">
+			<!-- HEADER -->
+			<header>
+				<div class="inner">
+					<div id="logo"><a href="/">{{ site.name }}</a></div>
+					<div id="social"></div>
+				</div>
+			</header>
+			
+			<!-- ASIDE -->
+			<aside>
+				<p><a href="/">Home</a></p>
+			</aside>
 
-          {{ content }}
+			<!-- ARTICLE -->
+			<article>
+				{{ content }}
+			</article>
+			<!-- /ARTICLE -->
+			
+			<div style="clear: both;"></div>
+	
+		</div>
+		<!-- /FRAME2 -->
+	
+	</div>
+	<!-- /FRAME1 -->
 
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
-          </div>
-        </div>
+	<!-- FOOTER 
+	<footer>
+			<div class="inner">© H. K. Ilter</div>
+	</footer> -->
 
-    </body>
+	</div>
+	<!-- /PAGE -->
+
+	</body>
 </html>
