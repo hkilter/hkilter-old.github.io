@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Markx Sample File"
+date:   2014-03-20 13:38:11
+categories: jekyll update
+---
+
 # Markx
 ## Help
 Last update: 26 Feb 2013
