@@ -31,14 +31,11 @@ a:hover {
 }
 
 header {
-	background: #563d7c;
-	border-bottom: 1px solid #463265;
-	font-weight: bold;
+	background: #000000;
+	font-weight: normal;
 	height: 60px;
 	line-height: 60px;
-	/*width: 100%;*/
 	z-index: 300;
-	box-shadow: 0 1px 0 rgba(255,255,255,.1);
 	margin: 0px -20px 0px -20px;
 }
 
