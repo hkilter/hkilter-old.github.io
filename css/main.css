@@ -100,7 +100,7 @@ header #social a:hover {
 	/*min-height: 600px;*/
 }
 
-aside {
+/*aside {
 	float: left;
 	width: 140px;
 	margin-left: -20px;
@@ -115,11 +115,11 @@ aside #tools {
 	position: relative;
 	margin-bottom: 20px;
 	width: 140px;
-}
+}*/
 
 article {
 	font-family: "Mate", serif;
-	margin-left: 180px;
+	/*margin-left: 180px;*/
 	font-size: 16px;
 	line-height: 1.8;
 	padding-top: 20px;
