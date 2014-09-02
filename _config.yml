@@ -1,11 +1,9 @@
 # Site settings
-title: H. K. Ilter
+title: SCOM
 email: info@hkilter.com
 description: > # this means to ignore newlines until "baseurl:"
-  This website is about one of my projects, SCOM - Ontological Supply
-  Chain Management Model) which aims to create a dynamic model for
-  tracking and tracing product/service, members, flow and operations
-  of a supply chain with an upper ontology.
+  SCOM - Ontological Supply Chain Management Model) aims to create
+  a dynamic model for tracking and tracing elements of a supply chain.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: hkilter
