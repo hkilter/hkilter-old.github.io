@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am currently working on a project (SCOM - Ontological Supply Chain Management Model) which aims to create a dynamic model for tracking and tracing product/service, members, flow and operations of a supply chain with an upper ontology. 
+I am currently working on a project, **SCOM** - *Ontological Supply Chain Management Model*,  which aims to create a dynamic model for tracking and tracing product/service, members, flow and operations of a supply chain with an upper ontology. 
 
 It will hopefully let us to track any product/service and to trace its all physical, social or mental components (raw materials, parts, know-how, patents, managerial strategy etc.) efficiently. 
 
