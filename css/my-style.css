@@ -129,6 +129,9 @@ abbr {
 }
 .footnote {
   height: 30px;
+  position:absolute;
+  bottom: 260px;
+  border-top: 1px solid #333;
 }
 .page-no {
   height: 30px;
