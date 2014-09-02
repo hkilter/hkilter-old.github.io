@@ -7,7 +7,7 @@ categories: scom general
 Let me marking today is a beginning day to construct a XML base for SCOM. 
 {% highlight xml %}
 <scom>
-	<name>Example model</name>
-	<type>Basic</name>
+  <name>Example model</name>
+  <type>Basic</name>
 </scom>
 {% endhighlight %}
